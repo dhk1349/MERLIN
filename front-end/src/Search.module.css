@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+form {
+    width: 60%;
+    margin-right: 1rem;
+}
+
+.searchDiv {
+    width: 90%;
+    /* Makes the input area wide relative to window size */
+    max-width: 900px;
+    /* Limits the maximum width */
+    padding: 10px;
+}
+
+.searchTerm {
+    width: 95%;
+    /* Makes the input area wide relative to window size */
+    max-width: 900px;
+    /* Limits the maximum width */
+    /* height: 100%; */
+    padding: 10px;
+    border: 2px solid #007bff;
+    /* Blue border */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.searchTerm:hover {
+    border-color: #ffc107;
+    /* Change border color on hover */
+}
+
+.searchBtn {
+    background-color: #ffc107;
+    /* Yellow background */
+    color: #fff;
+    /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size: 1rem;
+    margin-left: 0.2rem;
+}
+
+.searchBtn:hover {
+    background-color: #e0a800;
+    /* Darker yellow on hover */
+    transform: scale(1.05);
+    /* Slightly enlarge on hover */
+}
