@@ -27,7 +27,7 @@
 - Video cache server can access to this DB
 
 
-## Look like..
+## Looks like..
 ![merlin1](https://github.com/user-attachments/assets/ec441c8b-f64f-4ce4-9bb0-de153a363bba)
 Search video with initial text query.
 
